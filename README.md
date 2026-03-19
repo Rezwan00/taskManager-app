@@ -2,7 +2,7 @@
 
 A clean, production-quality task management app built with **React Native**, **TypeScript**, and **Expo**. Demonstrates core mobile development patterns including navigation, persistent state, Context API, and accessibility.
 
-## 📱 Features
+## Features
 
 - **Add, edit, and delete tasks** with title, description, and priority
 - **Priority levels** — High, Medium, Low — with colour-coded visual indicators
@@ -12,7 +12,7 @@ A clean, production-quality task management app built with **React Native**, **T
 - **Accessible** — ARIA roles, labels, and states throughout
 - **Unit tested** — TaskContext fully covered with Jest
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -24,7 +24,7 @@ A clean, production-quality task management app built with **React Native**, **T
 | Testing | Jest + React Testing Library |
 | Safe Area | react-native-safe-area-context |
 
-## 🏗 Architecture
+## Architecture
 
 ```
 src/
@@ -48,7 +48,7 @@ src/
 - **TypeScript interfaces** — `Task`, `Priority`, `TaskContextType` fully typed
 - **Accessibility** — `accessibilityRole`, `accessibilityState`, `accessibilityLabel` on interactive elements
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -81,7 +81,7 @@ npm run android
 npm test
 ```
 
-## 📋 Screens
+## Screens
 
 ### Home Screen
 - Lists all tasks with priority colour bar, checkbox, and actions
@@ -95,7 +95,7 @@ npm test
 - Priority selector (Low / Medium / High) with colour feedback
 - Works for both adding new tasks and editing existing ones
 
-## 🧪 Tests
+## Tests
 
 Unit tests cover the full `TaskContext`:
 - Initial state
@@ -105,6 +105,6 @@ Unit tests cover the full `TaskContext`:
 - Update task
 - Multiple tasks ordered newest-first
 
-## 📄 License
+## License
 
 MIT
